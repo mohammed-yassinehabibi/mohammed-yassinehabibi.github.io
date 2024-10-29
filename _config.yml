@@ -39,6 +39,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
+  cv : "[CV](https://academicpages.github.io/cv)"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
