@@ -21,7 +21,7 @@ repository               : "mohammed-yassinehabibi/mohammed-yassinehabibi.github
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/photo_de_profil.png"
+  avatar           : "photo_de_profil.png"
   name             : "Habibi Mohammed-Yassine"
   pronouns         : # example: "she/her"  
   bio              : "Master student at the MVA in Mathematics, Learning and Vision"
