@@ -9,8 +9,8 @@ main:
     # url: /cv/
     url: /files/CV_2024_en.pdf
 
-#  - title: "Publications"
-#    url: /publications/
+  - title: "Papers & Research Projects "
+    url: /publications/
 
 #  - title: "Talks"
 #    url: /talks/    
