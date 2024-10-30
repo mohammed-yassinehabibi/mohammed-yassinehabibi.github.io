@@ -1,6 +1,6 @@
 ---
 title: "Deep-Learning and Approximate Bayesian Computation for Finite Site model multivariate inference"
-collection: portfolio
+collection: publications
 ---
 
 Read the complete paper [here](http://mohammed-yassinehabibi.github.io/files/Research_Internship_IICD.pdf).
