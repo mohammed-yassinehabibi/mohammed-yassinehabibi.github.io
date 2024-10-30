@@ -9,7 +9,7 @@ main:
     # url: /cv/
     url: /files/CV_2024_en.pdf
 
-  - title: "Papers & Research Projects "
+  - title: "Published Papers"
     url: /publications/
 
 #  - title: "Talks"
