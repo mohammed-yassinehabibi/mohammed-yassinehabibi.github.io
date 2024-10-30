@@ -38,7 +38,7 @@ author:
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
-  scopus           : "https://github.com/mohammed-yassinehabibi/mohammed-yassinehabibi.github.io/blob/master/files/CV_2024_en.pdf"
+  scopus           : #"https://github.com/mohammed-yassinehabibi/mohammed-yassinehabibi.github.io/blob/master/files/CV_2024_en.pdf"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
