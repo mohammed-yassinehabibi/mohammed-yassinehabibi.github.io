@@ -1,6 +1,10 @@
 ---
 title: "Machine Learning and Deep-Learning for weather prediction"
 collection: publications
+category: manuscripts
+date: 2024-03-01
+permalink: /publication/2024-03-01-research_project_weather_prediction
+paperurl: 'http://academicpages.github.io/files/EA_Recherche_Rapport_final.pdf'
 ---
 
 Read the complete paper [here](http://mohammed-yassinehabibi.github.io/files/EA_Recherche_Rapport_final.pdf) (it is only available in french).
