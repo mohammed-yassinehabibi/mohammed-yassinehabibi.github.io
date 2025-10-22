@@ -44,6 +44,17 @@
     clear: both;
     list-style-type: none;
   }
+  
+  .dark-mode-toggle {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    margin-top: -20px;
+    
+    @include breakpoint($large) {
+      right: 100px;
+    }
+  }
 }
 
 .masthead__menu-item {

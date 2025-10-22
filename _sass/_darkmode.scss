@@ -1,0 +1,273 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  background: transparent;
+  border: 2px solid $border-color;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  flex-shrink: 0;
+  z-index: 101;
+  
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: $primary-color;
+    transform: scale(1.15);
+  }
+  
+  i {
+    font-size: 18px;
+    color: $text-color;
+    transition: color 0.3s ease;
+  }
+  
+  &:hover i {
+    color: $primary-color;
+  }
+}
+
+/* Dark mode color variables */
+html[data-theme="dark"] {
+  
+  /* Background colors */
+  background-color: #1a1a1a;
+  
+  .masthead {
+    background-color: #2d2d2d;
+    border-bottom-color: #404040;
+  }
+  
+  .greedy-nav {
+    background: #2d2d2d;
+    
+    a {
+      color: #e0e0e0;
+      
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    
+    button {
+      color: #e0e0e0;
+    }
+  }
+  
+  .dark-mode-toggle {
+    border-color: #555;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    i {
+      color: #ffd700;
+    }
+  }
+  
+  /* Main content */
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .page {
+    background-color: #1a1a1a;
+  }
+  
+  .page__content {
+    color: #e0e0e0;
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: #ffffff;
+    }
+    
+    a {
+      color: #6ab0f3;
+      
+      &:hover {
+        color: #8fc5f7;
+      }
+    }
+    
+    p, li, td, th {
+      color: #e0e0e0;
+    }
+    
+    code {
+      background-color: #2d2d2d;
+      color: #f8f8f2;
+    }
+    
+    pre {
+      background-color: #2d2d2d;
+    }
+    
+    blockquote {
+      border-left-color: #555;
+      background-color: #2d2d2d;
+    }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #1a1a1a;
+    
+    .author__name {
+      color: #ffffff;
+    }
+    
+    .author__bio {
+      color: #b0b0b0;
+    }
+    
+    .author__urls {
+      a {
+        color: #e0e0e0;
+        
+        &:hover {
+          color: #ffffff;
+        }
+      }
+      
+      i {
+        color: #e0e0e0 !important;
+        
+        &:hover {
+          color: #ffffff !important;
+        }
+      }
+    }
+  }
+  
+  /* Archive items */
+  .archive__item {
+    .archive__item-title {
+      color: #ffffff;
+      
+      a {
+        color: #6ab0f3;
+        
+        &:hover {
+          color: #8fc5f7;
+        }
+      }
+    }
+    
+    .archive__item-excerpt {
+      color: #b0b0b0;
+    }
+    
+    .page__meta {
+      color: #888;
+    }
+  }
+  
+  /* Footer */
+  .page__footer {
+    background-color: #2d2d2d;
+    color: #b0b0b0;
+    border-top-color: #404040;
+    
+    a {
+      color: #6ab0f3;
+      
+      &:hover {
+        color: #8fc5f7;
+      }
+    }
+  }
+  
+  /* Tables */
+  table {
+    border-color: #404040;
+    
+    thead {
+      background-color: #2d2d2d;
+      color: #ffffff;
+    }
+    
+    tbody {
+      tr {
+        border-bottom-color: #404040;
+        
+        &:nth-child(even) {
+          background-color: #252525;
+        }
+      }
+    }
+  }
+  
+  /* Forms and inputs */
+  input, textarea, select {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border-color: #404040;
+    
+    &:focus {
+      border-color: #6ab0f3;
+    }
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border-color: #404040;
+    
+    &:hover {
+      background-color: #3d3d3d;
+      color: #ffffff;
+    }
+  }
+  
+  /* Navigation */
+  .pagination {
+    .current,
+    .current.disabled,
+    .current.disabled:hover {
+      background: #2d2d2d;
+      color: #ffffff;
+    }
+    
+    a,
+    a:visited {
+      color: #6ab0f3;
+    }
+  }
+  
+  /* Notices */
+  .notice {
+    background-color: #2d2d2d;
+    border-color: #404040;
+  }
+  
+  /* Images - keep borders subtle in dark mode */
+  img {
+    border-color: #404040;
+  }
+}
+
+/* Smooth transition when switching themes */
+html,
+body,
+.masthead,
+.sidebar,
+.page,
+.page__footer,
+.archive__item,
+a,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

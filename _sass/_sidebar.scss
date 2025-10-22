@@ -258,3 +258,25 @@
     }
   }
 }
+
+/* Icon-only links displayed inline */
+.author__urls {
+  li:has(a[title="Email"]),
+  li:has(a[title="CV"]),
+  li:has(a[title="LinkedIn"]),
+  li:has(a[title="Github"]),
+  li:has(a[title="Google Scholar"]) {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+    
+    a {
+      display: inline-block;
+      padding: 2px 5px;
+      
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -8,11 +8,17 @@ redirect_from:
 ---
 <div style="text-align: justify;">
 <br><br>
-📗 After having completed a Master's in Applied Mathematics at <a href="https://www.polytechnique.edu/">Ecole polytechnique (France)</a> as part of the engineer curriculum (X2021), I'm now in my final year of my graduate degree in Mathematics, Vision and Learning (<a href="https://www.master-mva.com/">MVA program</a>) at the <a href="https://www.universite-paris-saclay.fr/en/accueil-english/">Paris-Saclay University</a>.
+📗 I completed a Master's degree in Applied Mathematics and Artificial Intelligence (<a href="https://www.master-mva.com/">MVA master</a>) at <a href="https://www.universite-paris-saclay.fr/en/accueil-english/">Paris-Saclay University</a> and a Master's in Applied Mathematics at <a href="https://www.polytechnique.edu/">Ecole Polytechnique (France)</a> as part of the Ingénieur Polytechnicien Program (X2021).
 <br><br>
-🦿 I have a very strong interest for <b>optimisation algorithms</b> and their numerous applications in AI. My current coursework are about optimal transport, geometric deep learning, stopping times and online algorithms, geometric data analysis, convex optimization, reinforcement learning and computational statistics.
+💼 <b>Current Position:</b> Since September 2025, I am an <b>Ingénieur-élève des ponts, des eaux et des forêts</b> - a trainee civil servant engineer as member of the French "Corps des IPEF" (French Ministries of Agriculture and Ecological Transition).
 <br><br>
-🧬 I am a former student researcher at the <a href="https://cancerdynamics.columbia.edu/">Irving Institute for Cancer Dynamics</a> at Columbia University, under the supervision of <a href="https://scholar.google.co.uk/citations?user=1aX_bIcAAAAJ&hl=en">Dr. Simon Tavaré</a>. My research interest focused on leveraging <b>CNN architectures</b> to produce informative summary statistics that facilitate the computation of posterior distributions for the parameters of <b>biological stochastic models</b>, utilizing state-of-the-art <b>Approximate Bayesian computation</b> frameworks.
+🔬 <b>Research Experience:</b>
+<br>
+• <b>OIST, Japan</b> (April - August 2025): Research Assistant on <i>Neuroscience-Inspired Encoding and Learning: A Path to Robust Representation Learning</i> under the supervision of <a href="https://www.makotoyamada-ml.com/">Pr. Makoto Yamada</a> (Machine Learning and Data Science Unit). Explored frontiers between robust representation learning and neuroscience-inspired encoding and learning. Work accepted at <b><a href="https://openreview.net/forum?id=3LERuKSX1B&referrer=%5Bthe%20profile%20of%20Mohammed-Yassine%20Habibi%5D(%2Fprofile%3Fid%3D~Mohammed-Yassine_Habibi1)">NeurIPS 2025 workshop</a></b>.
+<br>
+• <b>Columbia University, USA</b> (April - July 2024): Research Assistant on <i>Deep Learning and ABC for Parameter Inference</i> under the supervision of <a href="https://scholar.google.co.uk/citations?user=1aX_bIcAAAAJ&hl=en">Dr. Simon Tavaré</a> (<a href="https://cancerdynamics.columbia.edu/">Herbert and Florence Irving Institute for Cancer Dynamics</a>). Inferred parameters of finite sites evolutionary models to fit them to specific cancer data, applying <b>Deep Learning frameworks</b> to summarize genomic data and <b>Random Forest Approximate Bayesian Computation (RF-ABC)</b> to infer multivariate vectors of parameters.
 <br><br>
-🎻 I love music in general, but I particularly enjoy playing the violin since I am a child (I played in 4 different orchestras), and I am always happy to discover different musical repertoires. During my free time I enjoy running and cycling, or improving my skills at music games like DDR.
+🌱 My research interests concern <b>representation learning, and self-supervised learning</b> and applications in ecology, and biodiversity.
+<br><br>
+🎻 I love music in general, but I particularly enjoy playing the violin since I am a child (I played in 4 different orchestras), and I am always happy to discover different musical repertoires. During my free time I enjoy running and cycling, or improving my skills at music games like DanceDanceRevolution.
 </div>
